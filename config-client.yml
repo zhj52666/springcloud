@@ -1,0 +1,11 @@
+spring:
+ profiles:
+  active: dev
+
+---
+server:
+ port: 8201
+spring:
+ profiles: dev
+  application:
+   name: springcloud-provider-dept
