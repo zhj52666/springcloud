@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-eureka-7003" />
         <module name="springcloudapi" />
+        <module name="springcloudconfigserver3344" />
         <module name="springcloudconsumerdept80" />
         <module name="springcloudconsumerdeptfeign" />
         <module name="springcloudconsumerdepthystrixdashboard" />
