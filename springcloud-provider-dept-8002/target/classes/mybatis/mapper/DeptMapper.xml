@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhj.springcloud.mapper.DeptMapper">
+
+    <insert id="addDept" parameterType="Dept">
+        insert into tb1_dept (dept_name, db_source) values (#{deptName}, DATABASE())
+    </insert>
+
+    <select id="queryById" resultType="Dept" parameterType="Long">
+        select id deptNo, dept_name deptName, db_source from tb1_dept where id = #{deptNo}
+    </select>
+
+    <select id="queryAll" resultType="Dept">
+        select id deptNo, dept_name deptName, db_source from tb1_dept
+    </select>
+
+</mapper>

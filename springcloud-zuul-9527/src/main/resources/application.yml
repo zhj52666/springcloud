@@ -1,0 +1,22 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: springcloud-zuul
+eureka:
+  client:
+    service-url:  # 修改默认端口
+      defaultZone: http://www.eureka1.com:7001/eureka/,http://www.eureka2.com:7002/eureka/,http://www.eureka3.com:7003/eureka/
+  instance:
+    instance-id: springcloud-zuul-9527 # 修改eureka 默认描述信息
+    prefer-ip-address: true  # ip 信息
+# info 配置
+info:
+  app.name: zhj-springcloud
+  company.name: www.zhjweb.tech
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+  ignored-services: springcloud-provider-dept # 不能使用这个路径访问  “*”隐藏全部的
+  # prefix: /zhj  设置公共前缀
