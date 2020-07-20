@@ -139,75 +139,7 @@
       <change afterPath="$PROJECT_DIR$/../springbootshirodemo/shiro-springboot/src/main/resources/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springbootshirodemo/shiro-springboot/src/main/resources/templates/user/add.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springbootshirodemo/shiro-springboot/src/main/resources/templates/user/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/zhj/springcloud/pojo/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/zhj/springcloud/service/DeptClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-api/src/main/java/com/zhj/springcloud/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/zhj/myrule/MyRandomRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/zhj/myrule/MyRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/zhj/springcloud/DeptConsumer_80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/zhj/springcloud/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/zhj/springcloud/controller/DeptConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/zhj/springcloud/DeptConsumerFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/zhj/springcloud/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/java/com/zhj/springcloud/controller/DeptConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-hystrix-dashboard/src/main/java/com/zhj/springcloud/DeptConsumerDashboard_9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-dept-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/com/zhj/springcloud/EurekaServer_7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/java/com/zhj/springcloud/EurekaServer_7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/java/com/zhj/springcloud/EurekaServer_7003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/zhj/springcloud/DeptProvider_8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/zhj/springcloud/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/zhj/springcloud/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/zhj/springcloud/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/zhj/springcloud/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/zhj/springcloud/DeptProvider_8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/zhj/springcloud/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/zhj/springcloud/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/zhj/springcloud/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/java/com/zhj/springcloud/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8002/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/zhj/springcloud/DeptProvider_8003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/zhj/springcloud/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/zhj/springcloud/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/zhj/springcloud/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/java/com/zhj/springcloud/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-8003/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/zhj/springcloud/DeptProviderHystrix_8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/zhj/springcloud/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/zhj/springcloud/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/zhj/springcloud/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/java/com/zhj/springcloud/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/java/com/zhj/springcloud/Zuul_9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -391,61 +323,12 @@
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-3344" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-3344" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-3344" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-provider-dept-8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -456,7 +339,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595252833494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595253049146" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -591,16 +474,26 @@
       <workItem from="1595122091193" duration="10138000" />
       <workItem from="1595142029026" duration="15416000" />
       <workItem from="1595203739399" duration="14630000" />
+      <workItem from="1595252659097" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45075000" />
+    <option name="totallyTimeSpent" value="45655000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.32321188" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.32860997" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.3043185" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -614,7 +507,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -628,7 +521,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.2645074" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2645074" />
       <window_info anchor="right" id="Database" order="6" weight="0.15721998" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
