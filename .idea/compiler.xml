@@ -2,24 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api" />
+        <module name="springcloud-config-client-3355" />
+        <module name="springcloud-config-server-3344" />
+        <module name="springcloud-consumer-dept-80" />
+        <module name="springcloud-consumer-dept-feign" />
+        <module name="springcloud-consumer-dept-hystrix-dashboard" />
+        <module name="springcloud-eureka-7001" />
+        <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7003" />
-        <module name="springcloudapi" />
-        <module name="springcloudconfigserver3344" />
-        <module name="springcloudconsumerdept80" />
-        <module name="springcloudconsumerdeptfeign" />
-        <module name="springcloudconsumerdepthystrixdashboard" />
-        <module name="springcloudeureka7001" />
-        <module name="springcloudeureka7002" />
-        <module name="springcloudproviderdept8001" />
-        <module name="springcloudproviderdept8002" />
-        <module name="springcloudproviderdept8003" />
-        <module name="springcloudproviderdepthystrix8001" />
-        <module name="springcloudzuul9527" />
+        <module name="springcloud-provider-dept-8001" />
+        <module name="springcloud-provider-dept-8002" />
+        <module name="springcloud-provider-dept-8003" />
+        <module name="springcloud-provider-dept-hystrix-8001" />
+        <module name="springcloud-zuul-9527" />
       </profile>
     </annotationProcessing>
   </component>
