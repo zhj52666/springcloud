@@ -3,9 +3,25 @@ spring:
   active: dev
 
 ---
-server:
+server: 
  port: 8201
 spring:
- profiles: dev
+ profiles:
+  active: dev
+   application:
+    name: springcloud-provider-dept
+eureka:
+  client:
+    service-url:  # 修改默认端口
+      defaultZone: http://www.eureka1.com:7001/eureka/
+---
+server:
+ port: 8202
+spring:
+ profiles: test
   application:
    name: springcloud-provider-dept
+eureka:
+  client:
+    service-url:  # 修改默认端口
+      defaultZone: http://www.eureka1.com:7001/eureka/
